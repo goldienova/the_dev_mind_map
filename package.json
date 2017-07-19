@@ -1,0 +1,19 @@
+{
+  "name": "the_dev_mind_map",
+  "version": "1.0.0",
+  "description": "make a mind map for computer science resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldienova/the_dev_mind_map.git"
+  },
+  "author": "MT, JL, SB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldienova/the_dev_mind_map/issues"
+  },
+  "homepage": "https://github.com/goldienova/the_dev_mind_map#readme"
+}
