@@ -1,17 +1,18 @@
 {
-  "name": "mindmap",
+  "name": "the_dev_mind_map",
   "version": "1.0.0",
-  "description": "a mapping of computer-science related topics from wikipedia",
+  "description": "make a mind map for computer science resources",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w & nodemon --watch server -e js,html server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goldienova/the_dev_mind_map.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "MT, JL, SB",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/goldienova/the_dev_mind_map/issues"
   },
@@ -20,5 +21,11 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.15.3",
     "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.3.0"
   }
 }
