@@ -1,0 +1,19 @@
+{
+  "name": "mindmap",
+  "version": "1.0.0",
+  "description": "a mapping of computer-science related topics from wikipedia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldienova/the_dev_mind_map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldienova/the_dev_mind_map/issues"
+  },
+  "homepage": "https://github.com/goldienova/the_dev_mind_map#readme"
+}
